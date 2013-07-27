@@ -62,4 +62,5 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 # Add custom profile
 ln -s "${SCRIPT_PATH}/birikino.zsh-theme" ~/.oh-my-zsh/themes/
 sed -i '/^ZSH_THEME=/s/.*/ZSH_THEME=\"birikino\"/' ~/.zshrc
+/usr/bin/env zsh
 source ~/.zshrc
